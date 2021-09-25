@@ -1,0 +1,27 @@
+{
+    "name": "kodkraft/countries",
+    "description": "List of all countries for laravel package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kodkraft\\Countries\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cengiz",
+            "email": "onkal.cengiz@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kodkraft\\Countries\\Providers\\CountriesServiceProvider"
+            ]
+        }
+    }
+}
