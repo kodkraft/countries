@@ -9,8 +9,6 @@ use Kodkraft\Countries\Models\Country;
 class UpdateCommand extends Command
 {
     protected $signature = 'countries:update';
-
-
     protected $description = 'Update countries using source';
 
     public function handle()

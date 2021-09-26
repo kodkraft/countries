@@ -22,7 +22,6 @@ class CreateCountriesTable extends Migration
             $table->string('capital')->nullable();
             $table->text('altSpellings')->nullable();
             $table->string('region')->nullable();
-
             $table->timestamps();
         });
     }
