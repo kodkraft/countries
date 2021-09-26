@@ -1,6 +1,6 @@
 {
     "name": "kodkraft/countries",
-    "description": "List of all countries for laravel package",
+    "description": "A laravel package to List of all countries",
     "type": "library",
     "license": "MIT",
     "autoload": {
