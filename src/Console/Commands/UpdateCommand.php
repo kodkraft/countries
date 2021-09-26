@@ -28,6 +28,9 @@ class UpdateCommand extends Command
             $c->alpha2Code = $country->alpha2Code;
             $c->alpha3Code = $country->alpha3Code;
             $c->callingCodes = $country->callingCodes;
+            $c->altSpellings = $country->altSpellings;
+            $c->region = $country->region;
+            $c->capital = $country->capital;
             $c->save();
             $this->output->progressAdvance();
         }

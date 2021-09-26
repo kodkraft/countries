@@ -19,6 +19,9 @@ class CreateCountriesTable extends Migration
             $table->string('alpha2Code', 2)->nullable();
             $table->string('alpha3Code', 3)->nullable();
             $table->string('callingCodes')->nullable();
+            $table->string('capital')->nullable();
+            $table->text('altSpellings')->nullable();
+            $table->string('region')->nullable();
 
             $table->timestamps();
         });
